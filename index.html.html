@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+
+    <!-- 文字コード -->
+    <meta charset="UTF-8">
+
+    <!-- ブラウザで表示されるタイトル -->
+    <title>TSUTSUMU 採用サイト｜新卒・中途採用情報</title>
+
+    <!-- Google font 読み込み -->
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <!-- スタイルシート -->
+    <link href="assets/css/reset.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+
+    <!-- 表示領域をデバイス依存にする、viewportを設定する -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0,viewport-fit=cover">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header-inner">
+        <!-- ロゴ -->
+        <h1 class="logo-area">
+          <img src="assets/images/TSUTSUMU_logo.png" alt="TSUTSUMU">
+          <span class="logo-under">採用サイト</span>
+        </h1>
+        <!-- ナビ + CTA + ハンバーガー -->
+        <div class="nav-area">
+          <!-- ナビ（PC） -->
+          <nav class="nav-pc">
+            <ul>
+              <li><a href="#about">私たちについて</a></li>
+              <li><a href="#business">事業について</a></li>
+              <li><a href="#members">メンバー紹介</a></li>
+              <li><a href="#environment">働く環境</a></li>
+              <li><a href="#jobs">募集職種</a></li>
+              <li><a href="#process">選考の流れ</a></li>
+            </ul>
+          </nav>
+          <!-- CTAボタン -->
+          <a href="#" class="entry-btn">エントリー</a>
+          <!-- ハンバーガー（スマホ） -->
+          <div class="hamburger" id="hamburger">
+            <span></span><span></span><span></span>
+          </div>
+        </div>
+      </div>
+      <!-- グローバルナビ（スマホ全画面） -->
+      <nav class="nav-mobile" id="navMobile">
+        <ul>
+          <li><a href="#about">私たちについて</a></li>
+          <li><a href="#business">事業について</a></li>
+          <li><a href="#members">メンバー紹介</a></li>
+          <li><a href="#environment">働く環境</a></li>
+          <li><a href="#jobs">募集職種</a></li>
+          <li><a href="#process">選考の流れ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="main-visual">
+      <div class="main-visual-inner">
+        <div class="catchcopy fadein">
+          <p>世界をやさしさでつつむ。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about-content">
+          <h2 class="section-title" id="about">私たちについて</h2>
+            <p class="section-description-about fadein">
+              TSUTSUMUでは、あかちゃんがやさしさにつつまれて安心できるような<br class="sp-none">
+              暮らしのための商品開発に取り組んできました。<br>
+              <br>
+              また、これからはあかちゃんだけでなく ママやパパ、おじいちゃんおばあちゃんまで<br class="sp-none">
+              家族みんながやさしく幸せに暮らせるような世界を創り出していくことが<br class="sp-none">
+              わたしたちの使命だと考えています。<br>
+              <br>        
+              もっともっとやさしさでつつまれる世界を目指して。</p>
+          <div class="btn-wrapper">
+            <a href="#" class="btn-outline">ミッション・バリューを詳しく<span class="arrow">▶</span></a>
+          </div>                  
+          <div class="deco deco1"></div>
+          <div class="deco deco2"></div>
+          <div class="deco deco3"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="business">
+      <div class="container">
+        <h2 class="section-title" id="business">事業について</h2>
+        <p class="section-description">TSUTSUMUではあかちゃんだけでなく、<br class="sp-none">家族みんなが幸せになることを目指した事業の展開をしています。</p>
+        <div class="business-list">
+          <!-- 1件目（テキスト左・画像右） -->
+          <div class="business-item">
+            <div class="business-text fadein">
+              <span class="business-number">01</span>
+              <h3 class="business-heading">ベビー用品開発事業</h3>
+              <p class="business-desc">普段使用する衣類や消耗品を始め、知育玩具など、あかちゃんの安心安全な成長をサポートする商品の開発に取り組んでいます。</p>
+            </div>
+            <div class="business-image">
+              <img src="assets/images/babygoods.png" alt="ベビー用品開発事業">
+            </div>
+          </div>
+          <!-- 2件目（画像左・テキスト右） -->
+          <div class="business-item reverse">
+            <div class="business-text fadein">
+              <span class="business-number">02</span>
+              <h3 class="business-heading">フォトブック事業</h3>
+              <p class="business-desc">大切な家族の記録をアプリとの連携で簡単に整理、共有できるフォトブックのサービス開発に取り組んでいます。</p>
+            </div>
+            <div class="business-image">
+              <img src="assets/images/photobook.png" alt="フォトブック事業">
+            </div>          
+          </div>
+          <!-- 3件目（テキスト左・画像右） -->
+          <div class="business-item">
+            <div class="business-text fadein">
+              <span class="business-number">03</span>
+              <h3 class="business-heading">コミュニティ事業</h3>
+              <p class="business-desc">ママ同士の繋がりをつくり、育児の悩みや疑問を解消することのできるコミュニティーサービスの開発に取り組んでいます。</p>
+            </div>
+            <div class="business-image">
+              <img src="assets/images/community.png" alt="コミュニティ事業">
+            </div>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <a href="#" class="btn-outline">もっと見る<span class="arrow">▶</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="members">
+      <div class="container">
+        <h2 class="section-title" id="members">メンバー紹介</h2>
+        <p class="section-description">TSUTSUMUではそれぞれの得意に合わせて活躍できる場が様々あります。<br>各領域でそれぞれの個性を活かし活躍するメンバーの紹介です。</p>
+        <div class="member-grid">
+          <div class="member-card fadein">
+            <img src="assets/images/member1.png" alt="大井 由紀子">
+            <div class="member-label">
+              <p class="member-name">大井 由紀子</p>
+              <p class="member-role">コミュニティ事業部 事業責任者</p>
+            </div>
+          </div>
+          <div class="member-card fadein">
+            <img src="assets/images/member2.png" alt="遠藤 麻衣">
+            <div class="member-label">
+              <p class="member-name">遠藤 麻衣</p>
+              <p class="member-role">広報/PRプランディングマネージャー</p>
+            </div>
+          </div>
+          <div class="member-card fadein">
+            <img src="assets/images/member3.png" alt="中野 静佳">
+            <div class="member-label">
+              <p class="member-name">中野 静佳</p>
+              <p class="member-role">フォトブック事業部 カスタマーサポート</p>
+            </div>
+          </div>
+          <div class="member-card fadein">
+            <img src="assets/images/member4.png" alt="堀田 なつき">
+            <div class="member-label">
+              <p class="member-name">堀田 なつき</p>
+              <p class="member-role">フォトブック事業部 デザイナー</p>
+            </div>
+          </div>
+        </div>
+        <div class="btn-wrapper">
+          <a href="#" class="btn-outline">もっと見る<span class="arrow">▶</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="environment">
+      <div class="container">
+        <h2 class="section-title" id="environment">働く環境</h2>
+        <p class="section-description">TSUTSUMUでは、多種多様な働きかたに合わせて個人がバリューを発揮できるような<br class="sp-none">働き方のサポートを多数用意しております。</p>
+          <div class="workstyle-grid fadein">
+            <div class="workstyle-item">
+              <div class="icon-box">
+                <img src="assets/images/flex-time.png" alt="フレックスタイム制">
+              </div>
+              <p class="workstyle-text">フレックスタイム制</p>
+            </div>
+            <div class="workstyle-item">
+              <div class="icon-box">
+                <img src="assets/images/nursery-school.png" alt="社内託児所">
+              </div>
+              <p class="workstyle-text">社内託児所</p>
+            </div>
+            <div class="workstyle-item">
+              <div class="icon-box">
+                <img src="assets/images/full-remote.png" alt="フルリモート">
+              </div>
+              <p class="workstyle-text">フルリモート</p>
+            </div>
+          </div>
+      <div class="btn-wrapper">
+        <a href="#" class="btn-outline">もっと見る<span class="arrow">▶</span></a>
+      </div>
+    </section>
+
+    <section class="jobs">
+      <div class="container">
+        <h2 class="section-title" id="jobs">募集職種</h2>
+        <p class="section-description">TSUTSUMUでは新卒/既卒を問わず、様々な職種の人材を積極的に募集しております。<br>
+          <br>
+          TSUTSUMUが目指す世界に共感し、その実現を本気で一緒に目指せる方、<br class="sp-none">自身のバリューを思う存分に発揮されたい方のご応募をお待ちしております。</p>
+        <div class="recruit-list">
+          <a href="#" class="recruit-item">
+            <div class="recruit-text">
+              <p class="recruit-title">エンジニア</p>
+              <p class="recruit-desc">安心・便利な子育て体験を支える開発業務</p>
+            </div>
+            <span class="recruit-arrow">▶</span>
+          </a>
+          <a href="#" class="recruit-item">
+            <div class="recruit-text">
+              <p class="recruit-title">ディレクター</p>
+              <p class="recruit-desc">家族の幸せを形にする事業全体の推進役</p>
+            </div>
+            <span class="recruit-arrow">▶</span>
+          </a>
+          <a href="#" class="recruit-item">
+            <div class="recruit-text">
+              <p class="recruit-title">UIUXデザイナー</p>
+              <p class="recruit-desc">赤ちゃんと家族に寄り添うデザインと体験を設計</p>
+            </div>
+            <span class="recruit-arrow">▶</span>
+          </a>
+          <a href="#" class="recruit-item">
+            <div class="recruit-text">
+              <p class="recruit-title">マーケター</p>
+              <p class="recruit-desc">サービスの魅力と想いを多くの家族へ届ける伝え手</p>
+            </div>
+            <span class="recruit-arrow">▶</span>
+          </a>
+          <a href="#" class="recruit-item">
+            <div class="recruit-text">
+              <p class="recruit-title">カスタマーサポート</p>
+              <p class="recruit-desc">育児中のユーザーに安心を届ける窓口対応</p>
+            </div>
+            <span class="recruit-arrow">▶</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="process">
+      <div class="container">
+      <h2 class="section-title" id="process">選考の流れ</h2>
+      <div class="flow-list">
+        <div class="flow-item fadein">
+          <div class="flow-step">
+            <span class="flow-number">01</span>
+            <span class="flow-label">エントリー</span>
+          </div>
+          <div class="flow-desc">
+            フォームより必要事項をご記入の上、ご応募ください。<br>社会人経験のある方は、履歴書・職務経歴書の提出をお願いします。
+          </div>
+        </div>
+        <div class="flow-item fadein">
+          <div class="flow-step">
+            <span class="flow-number">02</span>
+            <span class="flow-label">書類選考</span>
+          </div>
+          <div class="flow-desc">
+            ご提出いただいた情報をもとに、これまでのご経験や<br class="sp-none">TSUTSUMUとのマッチ度を確認させていただきます。
+          </div>
+        </div>
+        <div class="flow-item fadein">
+          <div class="flow-step">
+            <span class="flow-number">03</span>
+            <span class="flow-label">面接（1～2回）</span>
+          </div>
+          <div class="flow-desc">
+            現場メンバーや採用担当との面接を実施します。<br>お互いの理解を深める機会としてざっくばらんにお話ししましょう。
+          </div>
+        </div>
+        <div class="flow-item fadein">
+          <div class="flow-step">
+            <span class="flow-number">04</span>
+            <span class="flow-label">内定 / 面談</span>
+          </div>
+          <div class="flow-desc">
+            条件や働き方についてご相談のうえ、最終調整を行います。<br>不安な点があればお気軽にご相談ください。
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+    <section class="message">
+      <div class="container">
+      <p class="section-message fadein">TSUTSUMUでは、一緒に働く仲間を募集しています。<br>
+        私たちと一緒に、家族の未来をやさしくつつむサービスをつくりませんか？</p>
+      </div>
+    <!-- スライダー全体 -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="assets/images/family01.jpg" alt="家族1"></div>
+          <div class="swiper-slide"><img src="assets/images/family02.jpg" alt="家族2"></div>
+          <div class="swiper-slide"><img src="assets/images/family03.jpg" alt="家族3"></div>
+          <div class="swiper-slide"><img src="assets/images/family04.jpg" alt="家族4"></div>
+          <div class="swiper-slide"><img src="assets/images/family05.jpg" alt="家族5"></div>
+        </div>
+      </div>
+      <div class="btn-wrapper-last">
+        <a href="#" class="entry-btn-last">エントリー<span class="arrow">▶</span></a>
+      </div>      
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <img src="assets/images/TSUTSUMU_logo.png" alt="TSUTSUMUロゴ" class="footer-logo">
+          <small>© 2023 TSUTSUMU inc.</small>
+        </div>
+        <ul class="footer-links">
+          <li><a href="#">会社情報</a></li>
+          <li><a href="#">プライバシーポリシー</a></li>
+          <li><a href="#">特定商取引法に基づく表示</a></li>
+        </ul>
+      </div>
+    </footer>
+
+<!-- Swiper CSS & JS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+      // Swiperの初期化
+      const swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1.2,
+        spaceBetween: 16,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false
+        },
+        breakpoints: {
+          640: {
+          slidesPerView: 3,
+          centeredSlides: false
+          },
+          1024: {
+          slidesPerView: 3.5,
+          centeredSlides: false
+          }
+        }
+      });
+      // jQueryでハンバーガーメニュー開閉
+      const hamburger = document.getElementById('hamburger');
+      const navMobile = document.getElementById('navMobile');
+        hamburger.addEventListener('click', () => {
+        navMobile.classList.toggle('active');
+      });
+      // メニュークリックで閉じる
+        document.querySelectorAll('#navMobile a').forEach(link => {
+        link.addEventListener('click', () => {
+        navMobile.classList.remove('active');
+      });
+      });
+        ScrollReveal().reveal('.fadein', { 
+        duration: 1000, // アニメーションの完了にかかる時間
+        viewFactor: 0.5, // どれくらい見えたら実行するか（0〜1の間で指定）
+      });  
+    </script>
+
+  </body>
+</html>
